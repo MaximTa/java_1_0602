@@ -12,12 +12,11 @@ public class Main {
     float f = 11.54f;
     double d = 123.321;
     String str = "Java";
-
+//задание
     public static int calc(int a, int b, int c, int d) {
 
         return a * (b + (c / d));
     }
-
     public static boolean between10v20(int t, int p) {
         if (((t + p) > 10) && ((t + p) <= 20)) {
             return true;
